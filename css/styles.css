@@ -9,7 +9,7 @@
   --line: #dce3e8;
   --white: #fff;
   --accent: #e8a045;
-  --max: 1240px;
+  --max: 1360px;
   --header-h: 84px;
 }
 
@@ -49,7 +49,7 @@ button {
 }
 
 .wrap {
-  width: min(var(--max), calc(100% - 64px));
+  width: min(var(--max), calc(100% - 32px));
   margin-inline: auto;
 }
 
@@ -1801,7 +1801,7 @@ button {
 
 @media (max-width: 980px) {
   .wrap {
-    width: min(100% - 40px, var(--max));
+    width: min(100% - 24px, var(--max));
   }
 
   .links {
@@ -1854,7 +1854,7 @@ button {
   }
 
   .wrap {
-    width: calc(100% - 36px);
+    width: calc(100% - 20px);
   }
 
   .brand {
