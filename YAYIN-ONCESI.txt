@@ -1,0 +1,12 @@
+IPLUS web sitesi — yayın öncesi kontrol listesi
+
+1. js/main.js → siteContact: e-posta, telefon, adres, LinkedIn/Instagram/YouTube URL’lerini girin.
+2. Kurumsal logo (SVG/PNG) hazır olduğunda assets/ altına ekleyin; header’daki tipografik +IPLUS yerine bağlayın.
+3. info@iplus.com.tr gibi alan adı/e-posta doğrulandıysa siteContact.email olarak tanımlayın.
+4. Open Graph görseli için canlı sitede mutlak URL (https://…) kullanın (meta og:image).
+5. Favicon ve sosyal paylaşım görsellerini marka rehberine göre güncelleyin.
+6. Gerekirse temsili stok fotoğrafları kendi çekimleriniz veya onaylı proje görselleriyle değiştirin (assets/*.jpg + *.webp).
+7. ROKAE Robotics resmi logo kullanımı için marka sahibinden yazılı izin alın.
+8. KVKK / çerez metni ve gerekirse basit çerez bildirimi ekleyin (form yok; yalnızca analitik eklerseniz gerekir).
+9. Hosting: HTTPS, gzip/brotli, cache headers; index.html kök dizinde yayınlayın.
+10. Tarayıcıda TR/EN geçişi, mobil menü ve tüm anchor linkleri son kez test edin.
