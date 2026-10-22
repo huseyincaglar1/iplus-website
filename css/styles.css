@@ -2014,9 +2014,27 @@ button {
     grid-template-columns: 1fr;
   }
 
-  .brandline,
-  .branddesc {
+  .nav {
+    gap: 8px;
+  }
+
+  .brand {
+    gap: 8px;
+  }
+
+  .brandline {
     display: none;
+  }
+
+  .branddesc {
+    display: block;
+    flex: 0 1 70px;
+    max-width: 70px;
+    font-size: 9px;
+  }
+
+  .navright {
+    gap: 6px;
   }
 
   .steps {
